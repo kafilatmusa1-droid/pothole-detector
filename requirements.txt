@@ -1,0 +1,4 @@
+gradio==6.32.0
+ai-edge-litert==2.4.0
+numpy==2.5.5
+pillow==13.0.0
