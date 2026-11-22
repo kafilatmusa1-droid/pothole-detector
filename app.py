@@ -156,7 +156,7 @@ demo = gr.Interface(
     inputs=gr.Image(type="pil", label="Upload a road photo"),
     outputs=[gr.Image(label="Detected road damage"), gr.Textbox(label="Result", lines=6)],
     title="Edge AI Pothole and Road-Defect Detection (Prototype)",
-    description="Compressed YOLO model (INT8, 10 MB) running on this laptop's CPU.",
+    description="Compressed YOLO model (INT8, 10 MB) running on a free cloud CPU. Results may take a few seconds.",
 )
 
 if __name__ == "__main__":
